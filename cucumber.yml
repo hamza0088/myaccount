@@ -1,0 +1,9 @@
+#Alister
+#default: --tags ~@wip --color --format pretty --format html -o results.html
+#ci: -r features DISPLAY=:99.0 HEADLESS=true TRAVIS=true --tags ~@wip --format progress --format html -o results.html --format junit -o junit
+
+#cheezy
+default: --format html --out report.html --format pretty --no-source
+focus: --format html --out report.html --format pretty --no-source --tag @FOCUS
+
+
